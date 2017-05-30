@@ -10,6 +10,7 @@ namespace Polymorf {
             List<UserError> errors = new List<UserError>();
             for(int i = 0; i < 3; i++) {
                 errors.Add(new NumericInputError());
+
                 errors.Add(new TextInputError());
                 errors.Add(new ProgramInputError());
                 errors.Add(new CatInputError());
